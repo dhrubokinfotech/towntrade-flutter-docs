@@ -1,0 +1,36 @@
+site_name: Towntrade Flutter App
+theme:
+  name: readthedocs
+nav:
+  - Towntrade Overview: index.md
+  - Guide:
+      - Starter Guide: starter-guide.md
+      - Directory Structure: directory-structure.md
+  - Technical Overview:
+      - Technical Overview: technical-documentation.md
+  - Backend & Database Setup Guide:
+      - Setting Up the Backend Server & Database: setting-backendserver-database.md
+  - Configure Admin App:
+      - Overview: configure-admin-app.md
+      - Rename the App & Package Name: rename-app-and-package-name.md
+      - Connect the Admin App with the Firebase Project: connect-admin-app-firebase.md
+      - Enable Firebase Cloud Messaging or Push Notification: firebase-cloud-messaging.md
+      - Connect The App to Back4App: connect-back4ap.md
+      - Build the Admin App: build-admin-app.md
+      - Additional Notes: additional-notes.md
+  - Configure Customer App:
+      - Overview: configure-customer-app.md
+      - Rename the App & Package Name: rename-app-and-package-name.md
+      - Connect the App with the Firebase Project: connect-app-firebase.md
+      - Enable Firebase Cloud Messaging or Push Notification: firebase-cloud-messaging.md
+      - Connect The Customer App to Back4App: connect-back4ap.md
+      - Build the Customer App for Android: build-android-app.md
+      - Build the Customer App for iOS: build-ios-app.md
+      - Push Notification in iOS: push-notification-ios.md
+  - Branding & Style Guide:
+      - Changing App Icon and Splash Screen: change-app-icon-splash-screen-branding.md
+      - Changing App Theme and Colors: changing-themes-colors.md
+      - Changing Graphical Assets: changing-graphical-assets.md
+
+  - ChangeLogs:
+      - Changelog: changelog.md

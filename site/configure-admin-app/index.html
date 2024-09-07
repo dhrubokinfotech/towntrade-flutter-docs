@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Overview - Towntrade Flutter App</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Overview";
+        var mkdocs_page_input_path = "configure-admin-app.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Towntrade Flutter App
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Towntrade Overview</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../starter-guide/">Starter Guide</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../directory-structure/">Directory Structure</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Technical Overview</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../technical-documentation/">Technical Overview</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Backend & Database Setup Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../setting-backendserver-database/">Setting Up the Backend Server & Database</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configure Admin App</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Overview</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#rename-the-app-package-name">Rename the App &amp; Package Name</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#connect-the-admin-app-with-the-firebase-project">Connect the Admin App with the Firebase Project</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#enable-firebase-cloud-messaging-or-push-notification">Enable Firebase Cloud Messaging or Push Notification</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#connect-the-customer-app-to-back4app">Connect The Customer App to Back4App</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#build-the-admin-app">Build the Admin App</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#additional-notes">Additional Notes</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#important-note-for-the-admin-app">Important Note for the Admin App</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rename-app-and-package-name/">Rename the App & Package Name</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../connect-admin-app-firebase/">Connect the Admin App with the Firebase Project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../firebase-cloud-messaging/">Enable Firebase Cloud Messaging or Push Notification</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../connect-back4ap/">Connect The App to Back4App</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../build-admin-app/">Build the Admin App</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../additional-notes/">Additional Notes</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configure Customer App</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../configure-customer-app/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rename-app-and-package-name/">Rename the App & Package Name</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../connect-app-firebase/">Connect the App with the Firebase Project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../firebase-cloud-messaging/">Enable Firebase Cloud Messaging or Push Notification</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../connect-back4ap/">Connect The App to Back4App</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../build-android-app/">Build the Customer App for Android</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../build-ios-app/">Build the Customer App for iOS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../push-notification-ios/">Push Notification in iOS</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Branding & Style Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../change-app-icon-splash-screen-branding/">Changing App Icon and Splash Screen</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../changing-themes-colors/">Changing App Theme and Colors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../changing-graphical-assets/">Changing Graphical Assets</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">ChangeLogs</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../changelog/">Changelog</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Towntrade Flutter App</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Configure Admin App</li>
+      <li class="breadcrumb-item active">Overview</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="configure-the-admin-app">Configure The Admin App</h1>
+<p>Let’s open the towntrade-admin project from our bundle with Android Studio. Since we have already done the necessary setup for Flutter and Android, it should detect the flutter project and start indexing the files and other things.</p>
+<p>To make the Towntrade customer app functional, we need to build and configure the Towntrade-Admin app first. This admin app lets the product owner configure a lot of things like Product Categories, Sub-categories, Service Locations, and lots of other things. If these are not configured, then the customer app users will not be able to use the app smoothly and may not see any data.</p>
+<p>So, we'll prepare the Towntrade Admin app in the following sections:</p>
+<ul>
+<li>
+<h2 id="rename-the-app-package-name"><a href="../rename-app-and-package-name/">Rename the App &amp; Package Name</a></h2>
+</li>
+<li>
+<h2 id="connect-the-admin-app-with-the-firebase-project"><a href="../connect-admin-app-firebase/">Connect the Admin App with the Firebase Project</a></h2>
+</li>
+<li>
+<h2 id="enable-firebase-cloud-messaging-or-push-notification"><a href="../firebase-cloud-messaging/">Enable Firebase Cloud Messaging or Push Notification</a></h2>
+</li>
+<li>
+<h2 id="connect-the-customer-app-to-back4app"><a href="../connect-back4ap/">Connect The Customer App to Back4App</a></h2>
+</li>
+<li>
+<h2 id="build-the-admin-app"><a href="../build-admin-app/">Build the Admin App</a></h2>
+</li>
+<li>
+<h2 id="additional-notes"><a href="../additional-notes/">Additional Notes</a></h2>
+</li>
+</ul>
+<h3 id="important-note-for-the-admin-app">Important Note for the Admin App</h3>
+<p>It is recommended to set up the <code>SUPER_ADMIN</code> profile before starting the USER app.</p>
+<p>Your Back4App parse backend table initially does not have an admin. So we have written the admin app this way so that it finds if there is any <code>SUPER_ADMIN</code> in the parse table already. Please note that it searches for <code>SUPER_ADMIN</code>. Not ADMIN or any other role.</p>
+<p>If there is no <code>SUPER_ADMIN</code> in the table, The admin app will navigate you to the screen where you will be able to set up a <code>SUPER_ADMIN</code>. If <code>SUPER_ADMIN</code> is registered, you will never be navigated to this screen ever again. Now you can log in to the admin app using the <code>SUPER_ADMIN</code> credentials. <code>SUPER_ADMIN</code> can create new ADMINs.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../setting-backendserver-database/" class="btn btn-neutral float-left" title="Setting Up the Backend Server & Database"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../rename-app-and-package-name/" class="btn btn-neutral float-right" title="Rename the App & Package Name">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../setting-backendserver-database/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../rename-app-and-package-name/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
