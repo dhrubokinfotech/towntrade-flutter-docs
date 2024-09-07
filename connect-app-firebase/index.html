@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Connect the App with the Firebase Project - Towntrade Flutter App</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Connect the App with the Firebase Project";
+        var mkdocs_page_input_path = "connect-app-firebase.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Towntrade Flutter App
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Towntrade Overview</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../starter-guide/">Starter Guide</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../directory-structure/">Directory Structure</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Technical Overview</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../technical-documentation/">Technical Overview</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Backend & Database Setup Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../setting-backendserver-database/">Setting Up the Backend Server & Database</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configure Admin App</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../configure-admin-app/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rename-app-and-package-name/">Rename the App & Package Name</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../connect-admin-app-firebase/">Connect the Admin App with the Firebase Project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../firebase-cloud-messaging/">Enable Firebase Cloud Messaging or Push Notification</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../connect-back4ap/">Connect The App to Back4App</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../build-admin-app/">Build the Admin App</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../additional-notes/">Additional Notes</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configure Customer App</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../configure-customer-app/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rename-app-and-package-name/">Rename the App & Package Name</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Connect the App with the Firebase Project</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#connect-android-app-to-firebase-project">Connect Android App to Firebase Project</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#connect-ios-app-to-firebase-project">Connect iOS App to Firebase Project</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../firebase-cloud-messaging/">Enable Firebase Cloud Messaging or Push Notification</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../connect-back4ap/">Connect The App to Back4App</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../build-android-app/">Build the Customer App for Android</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../build-ios-app/">Build the Customer App for iOS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../push-notification-ios/">Push Notification in iOS</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Branding & Style Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../change-app-icon-splash-screen-branding/">Changing App Icon and Splash Screen</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../changing-themes-colors/">Changing App Theme and Colors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../changing-graphical-assets/">Changing Graphical Assets</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">ChangeLogs</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../changelog/">Changelog</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Towntrade Flutter App</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Configure Customer App</li>
+      <li class="breadcrumb-item active">Connect the App with the Firebase Project</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="connect-the-customer-app-with-the-firebase-project">Connect the Customer App with the Firebase Project</h1>
+<p>Previously we have created a firebase project in the Firebase console. Now, we need to connect our Customer app with this project. In order to do that, we need to do the following steps.</p>
+<h2 id="connect-android-app-to-firebase-project">Connect Android App to Firebase Project</h2>
+<ol>
+<li>Click on the Gear Icon to the right of ‘Project Overview’ in the left menu. It will open a menu, click on the project settings. The project settings page will open up.</li>
+<li>In the General tab, navigate to the bottom. Click on the Android icon. It opens up a form like the image.</li>
+</ol>
+<p><img alt="" src="../public/img/image3.png" /></p>
+<ol>
+<li>In the Android package name, enter the package name that you have chosen while renaming the package. You can also find it in android &rarr; app &rarr; build.gradle file. Copy the applicationId and paste it to the firebase form on step 2.</li>
+<li>Also, set the App Nickname, use the same name that you have chosen in the project renaming part.</li>
+<li>At this point, it will provide us a google-services.json file. Let’s download that file and put it in the android &rarr; app directory within the project. See the following image as reference.</li>
+<li>Since our codebase already has a empty <code>google-services.json</code> file in place, so you can just copy the contents of your 'google-services.json' file and paste it in the existing file.</li>
+</ol>
+<p><img alt="" src="../public/img/image2.png" /></p>
+<h2 id="connect-ios-app-to-firebase-project">Connect iOS App to Firebase Project</h2>
+<p>You can skip this part for now if you want. You can come back here later when you configure and build the iOS version of the app as described <a href="../build-ios-app/">here</a>.</p>
+<p>Now, let’s go to our browser to the Firebase Console and open our firebase app. Now we need to go to the project settings like the Android app process in the previous section.</p>
+<p>Now click on “Add App” button and fill up the information as requested.</p>
+<p><img alt="" src="../public/img/image7.png" /></p>
+<ol>
+<li>In the above image, we need to put the apple bundle ID. We’ll find that in XCode in the General tab, the field we are looking for is “Bundle Identifier” like the image. Copy that and paste into the form at step 4. In the app nickname, add the app name you have set. And download the config file called GoogleService-info.plist and add that file to the iOS project.</li>
+<li>To do that, right click on Runner in XCode and select ‘Add files to Runner’ and select the GoogleService-info.plist downloaded previously. Make sure, this file and info.plist file remains in the same directory like the image below.</li>
+</ol>
+<p><img alt="" src="../public/img/image8.png" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../rename-app-and-package-name/" class="btn btn-neutral float-left" title="Rename the App & Package Name"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../firebase-cloud-messaging/" class="btn btn-neutral float-right" title="Enable Firebase Cloud Messaging or Push Notification">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../rename-app-and-package-name/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../firebase-cloud-messaging/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
