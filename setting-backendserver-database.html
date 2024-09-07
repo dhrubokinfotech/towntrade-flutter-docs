@@ -9,21 +9,25 @@
       
       
       
+        <link rel="prev" href="technical-documentation.html">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="configure-admin-app.html">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
     
     
       
-        <title>Towntrade Classified Flutter App</title>
+        <title>Setting Up the Backend Server & Database - Towntrade Classified Flutter App</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.35f28582.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#setting-up-the-backend-server-database" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,9 +90,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/index.html" title="Towntrade Classified Flutter App" class="md-header__button md-logo" aria-label="Towntrade Classified Flutter App" data-md-component="logo">
+    <a href="index.html" title="Towntrade Classified Flutter App" class="md-header__button md-logo" aria-label="Towntrade Classified Flutter App" data-md-component="logo">
       
-  <img src="/public/img/logo.svg" alt="logo">
+  <img src="public/img/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -100,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Setting Up the Backend Server & Database
             
           </span>
         </div>
@@ -203,9 +212,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/index.html" title="Towntrade Classified Flutter App" class="md-nav__button md-logo" aria-label="Towntrade Classified Flutter App" data-md-component="logo">
+    <a href="index.html" title="Towntrade Classified Flutter App" class="md-nav__button md-logo" aria-label="Towntrade Classified Flutter App" data-md-component="logo">
       
-  <img src="/public/img/logo.svg" alt="logo">
+  <img src="public/img/logo.svg" alt="logo">
 
     </a>
     Towntrade Classified Flutter App
@@ -220,7 +229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.html" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -275,7 +284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/towntrade-overview.html" class="md-nav__link">
+      <a href="towntrade-overview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -338,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/starter-guide.html" class="md-nav__link">
+      <a href="starter-guide.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -359,7 +368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/directory-structure.html" class="md-nav__link">
+      <a href="directory-structure.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -422,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical-documentation.html" class="md-nav__link">
+      <a href="technical-documentation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -447,17 +456,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -471,7 +482,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Backend & Database Setup Guide
@@ -482,10 +493,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/setting-backendserver-database.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Setting Up the Backend Server & Database
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="setting-backendserver-database.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -494,6 +525,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup-configure-back4app-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup &amp; Configure Back4App Application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-configure-firebase-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup &amp; Configure Firebase Console
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -548,7 +617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/configure-admin-app.html" class="md-nav__link">
+      <a href="configure-admin-app.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -569,7 +638,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rename-app-and-package-name.html" class="md-nav__link">
+      <a href="rename-app-and-package-name.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -590,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/connect-admin-app-firebase.html" class="md-nav__link">
+      <a href="connect-admin-app-firebase.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -611,7 +680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/firebase-cloud-messaging.html" class="md-nav__link">
+      <a href="firebase-cloud-messaging.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -632,7 +701,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/connect-back4ap.html" class="md-nav__link">
+      <a href="connect-back4ap.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -653,7 +722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/build-admin-app.html" class="md-nav__link">
+      <a href="build-admin-app.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -674,7 +743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/additional-notes.html" class="md-nav__link">
+      <a href="additional-notes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -737,7 +806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/configure-customer-app.html" class="md-nav__link">
+      <a href="configure-customer-app.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -758,7 +827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rename-app-and-package-name.html" class="md-nav__link">
+      <a href="rename-app-and-package-name.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -779,7 +848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/connect-app-firebase.html" class="md-nav__link">
+      <a href="connect-app-firebase.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -800,7 +869,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/firebase-cloud-messaging.html" class="md-nav__link">
+      <a href="firebase-cloud-messaging.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -821,7 +890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/connect-back4ap.html" class="md-nav__link">
+      <a href="connect-back4ap.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -842,7 +911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/build-android-app.html" class="md-nav__link">
+      <a href="build-android-app.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -863,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/build-ios-app.html" class="md-nav__link">
+      <a href="build-ios-app.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -884,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/push-notification-ios.html" class="md-nav__link">
+      <a href="push-notification-ios.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -947,7 +1016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/change-app-icon-splash-screen-branding.html" class="md-nav__link">
+      <a href="change-app-icon-splash-screen-branding.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -968,7 +1037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/changing-themes-colors.html" class="md-nav__link">
+      <a href="changing-themes-colors.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -989,7 +1058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/changing-graphical-assets.html" class="md-nav__link">
+      <a href="changing-graphical-assets.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1052,7 +1121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/changelog.html" class="md-nav__link">
+      <a href="changelog.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1090,6 +1159,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup-configure-back4app-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup &amp; Configure Back4App Application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-configure-firebase-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup &amp; Configure Firebase Console
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1101,8 +1198,49 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="setting-up-the-backend-server-database">Setting Up the Backend Server &amp; Database</h1>
+<p>For the backend APIs and Database, we use <a href="https://parseplatform.org/">Parse Platform</a> in this project. It was initially a Facebook product and later it was made open source. So, if you are a developer and familiar with Node.js for server-side development, you can use the Open Source Parse-Server &amp; related applications &amp; host it in your preferred VPS server.</p>
+<p>However, we’ll use a deployment-ready Parse server provided by <a href="https://www.back4app.com/">Back4app.com</a>. They provide everything we need to get started in no time. And we’ll get a bunch of great tools as well to implement some features easily, we’ll get a ready admin dashboard to manage our data and many other useful stuff.</p>
+<h2 id="setup-configure-back4app-application">Setup &amp; Configure Back4App Application</h2>
+<p>Go to the website: <a href="https://www.back4app.com/">https://www.back4app.com/</a></p>
+<p><img alt="" src="public/img/image24.png" /></p>
+<p>Login to the console. If you don’t have an account, sign up first. After login, you are on this page:</p>
+<p><img alt="" src="public/img/image6.png" /></p>
+<ol>
+<li>Click on the ‘Build New App’ Button</li>
+<li>Select Backend as a service</li>
+</ol>
+<p><img alt="" src="public/img/image19.png" /></p>
+<ol>
+<li>Set the name of your app, select NoSQL Database, and click on the Create button.</li>
+</ol>
+<p><img alt="" src="public/img/image13.png" /></p>
+<p>Now your parse console is prepared. To use this on your flutter code, you need an Application ID and Client key. To get these keys, select App Settings -&gt; Security &amp; Keys:<br />
+Save it for now. We are going to need them in the coming steps.</p>
+<p><strong><img alt="" src="public/img/image15.png" /></strong></p>
+<h2 id="setup-configure-firebase-console">Setup &amp; Configure Firebase Console</h2>
+<p>We use Google Firebase for a couple of very useful features in this App. For example, verifying user phone numbers, sending push notifications, app analytics and several others. So, we need to connect Google Firebase with our project with the following steps. Let’s open</p>
+<ul>
+<li>Open the Firebase console following this link: <a href="https://console.firebase.google.com/">https://console.firebase.google.com/</a></li>
+<li>Click create a new project. Follow the instructions in the steps and finish the process. Enable Google Analytics in the process. It will take a minute to complete and when finished, Click continue and it will take you inside the Firebase project.</li>
+</ul>
+<p>We have more work to do here. We are going to come back to Firebase after changing a few important things in the codebase.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1180,10 +1318,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.instant", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "/assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="assets/javascripts/bundle.56dfad97.min.js"></script>
       
     
   </body>
