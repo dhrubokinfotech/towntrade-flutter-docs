@@ -4,8 +4,9 @@
 
 # Multi-purpose Classified Mobile App.
 
+- Version: 1.0.0
 - Built with Flutter 3.22.2
 - Available for iOS and Android
 
-[Buy from Codecanyon](https://github.com/docsifyjs/docsify/)
+[Buy from Codecanyon](https://dhrubokinfotech.com)
 [Read Documentation](towntrade-overview.md)

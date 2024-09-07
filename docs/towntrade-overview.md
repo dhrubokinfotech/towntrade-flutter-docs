@@ -1,6 +1,6 @@
 # Towntrade Overview
 
-[![towntrade classified mobile app cover](https://res.cloudinary.com/drxck87mb/image/upload/v1696238753/Presentation1_prvyhm.png)](https://drive.google.com/drive/folders/1-8YrFAO0p5kAL9J-jDc1Vs5nQXdmdYqi?usp=sharing)
+[![towntrade classified mobile app cover](https://res.cloudinary.com/drxck87mb/image/upload/v1696238753/Presentation1_prvyhm.png)](https://drive.google.com/drive/folders/1UHIiSCqEUTHGr3GQpJqDaQ4zmGboFIwF?usp=sharing)
 
 ## Introducing "TownTrade: Your One-Stop Classified Mobile App!"
 
@@ -43,13 +43,23 @@ By venturing into these industries, TownTrade has the potential to revolutionize
 ![How Towntrade classified mobile app works](https://res.cloudinary.com/drxck87mb/image/upload/v1696238758/Presentation4_wlwbmc.png)
 
 <div style="display: flex;">
-    <a href="https://docs.google.com/document/d/11oOFG11Gd7vVXG8LtzDy9_k0pG6hfSXFOzwToGYs6jw/edit?usp=sharing" width="49%">
+    <a href="https://dhrubokinfotech.github.io/towntrade-flutter-docs" width="49%">
       <img src="https://res.cloudinary.com/drxck87mb/image/upload/v1696238752/Presentation2_zw5sim.png" alt="Download towntrade classified mobile app documentation" />
    </a>
-   <a href="https://drive.google.com/drive/folders/1-8YrFAO0p5kAL9J-jDc1Vs5nQXdmdYqi?usp=sharing" width="49%">
+   <a href="https://drive.google.com/drive/folders/1UHIiSCqEUTHGr3GQpJqDaQ4zmGboFIwF?usp=sharing" width="49%">
       <img src="https://res.cloudinary.com/drxck87mb/image/upload/v1696238752/Presentation3_bddobv.png" alt="Download towntrade classified mobile app from Drive"/>
    </a>
 </div>
+
+## Demo Account Credentials
+
+### Admin Demo Account
+
+> Email: admin@gmail.com Password: 1234567@
+
+### Customer Demo Account
+
+> Email: customer@gmail.com Password: 1234567@
 
 ## TownTrade Classified Mobile App Features
 
