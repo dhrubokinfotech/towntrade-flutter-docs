@@ -28,5 +28,26 @@ Now click on “Add App” button and fill up the information as requested.
 
 1. In the above image, we need to put the apple bundle ID. We’ll find that in XCode in the General tab, the field we are looking for is “Bundle Identifier” like the image. Copy that and paste into the form at step 4. In the app nickname, add the app name you have set. And download the config file called GoogleService-info.plist and add that file to the iOS project.
 2. To do that, right click on Runner in XCode and select ‘Add files to Runner’ and select the GoogleService-info.plist downloaded previously. Make sure, this file and info.plist file remains in the same directory like the image below.
+3. Since our codebase already has a empty `GoogleService-info.plist` file in place, so you can just copy the contents of your 'GoogleService-info.plist' file and paste it in the existing file.
 
 ![](public/img/image8.png)
+
+## Update firebase_options.dart
+
+Now, we are assuming that we have completed connecting the project to the Firebase Console application as described in the above steps.
+
+At this point, we have another small task to do before we can build the app. Open the file `firebase_options.dart` from the `lib` folder and we'll see the 2 code blocks for iOS and Android platform like the image below.
+
+![firebase_options.dart](public/img/firebase_options.png)
+
+### Fill up the FirebaseOptions for Android
+
+Read the instructions in the code carefully. Then, Let's open our own `google-services.json` file & firebase_options.dart from the lib folder side by side for convenience. Extract the Red marked information from that JSON file and fill up the `apiKey, appId,messagingSenderId, projectId', storageBucket` in the android block in the `firebase_options.dart` file as shown in the image below.
+
+![firebase options android](public/img/fir_option_android.png)
+
+### Fill up the FirebaseOptions for iOS
+
+Read the instructions in the code carefully. Then, Let's open our own `GoogleService-info.plist` file & firebase_options.dart from the lib folder side by side for convenience. Extract the Red marked information from that Plist file and fill up the `apiKey', appId', messagingSenderId, projectId, storageBucket, androidClientId, iosBundleId` in the ios block in the `firebase_options.dart` file as shown in the image below.
+
+![firebase options ios](public/img/fir_option_ios.png)
