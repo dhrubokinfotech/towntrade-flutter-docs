@@ -8,5 +8,6 @@
 - Built with Flutter 3.22.2
 - Available for iOS and Android
 
-[Buy from Codecanyon](https://dhrubokinfotech.com)
-[Read Documentation](towntrade-overview.md)
+[Buy from Codecanyon](https://codecanyon.net/item/towntrade-flutter-based-multipurpose-classified-mobile-app/54253494){ .md-button .md-button--primary }
+[Read Documentation](towntrade-overview.md){ .md-button }
+
