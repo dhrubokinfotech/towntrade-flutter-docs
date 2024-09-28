@@ -50,16 +50,16 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-      primary: green
-      accent: lime
+  #  - scheme: default
+  #    toggle:
+  #      icon: material/toggle-switch-off-outline
+  #      name: Switch to dark mode
+  #    primary: green
+  #    accent: lime
     - scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+  #    toggle:
+  #      icon: material/toggle-switch
+  #      name: Switch to light mode
       primary: green
       accent: lime
 
