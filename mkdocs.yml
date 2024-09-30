@@ -68,6 +68,9 @@ plugins:
   - offline
 
 extra:
+  analytics:
+    provider: google
+    property: G-EHG7TZ66HY
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/dhrubokinfotech
