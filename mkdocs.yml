@@ -1,4 +1,4 @@
-site_name: Towntrade Classified Flutter App
+site_name: Towntrade - Multi-purpose Classified Flutter App
 nav:
   - Introduction: index.md
   - Towntrade Overview:
@@ -40,6 +40,7 @@ theme:
   font:
     text: Inter
   logo: public/img/logo.svg
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
