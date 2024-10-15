@@ -1,4 +1,5 @@
 site_name: Towntrade - Multi-purpose Classified Flutter App
+site_url: https://dhrubokinfotech.github.io/towntrade-flutter-docs/
 nav:
   - Introduction: index.md
   - Towntrade Overview:
@@ -34,12 +35,15 @@ nav:
 
   - ChangeLogs:
       - Changelog: changelog.md
+  - Demo App:
+      - Privacy Policy: privacy-policy.md
 
 theme:
   name: material
   font:
     text: Inter
   logo: public/img/logo.svg
+  favicon: public/img/favicon.ico
   custom_dir: overrides
   features:
     - navigation.instant
