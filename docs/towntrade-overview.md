@@ -1,6 +1,6 @@
 # Towntrade Overview
 
-[![towntrade classified mobile app cover](https://res.cloudinary.com/drxck87mb/image/upload/v1696238753/Presentation1_prvyhm.png)](https://drive.google.com/drive/folders/1UHIiSCqEUTHGr3GQpJqDaQ4zmGboFIwF?usp=sharing)
+[![towntrade classified mobile app cover](https://res.cloudinary.com/drxck87mb/image/upload/v1696238753/Presentation1_prvyhm.png)](https://play.google.com/store/apps/developer?id=Dhrubok+Infotech+Services+Ltd.&hl=en)
 
 ## Introducing "TownTrade: Your One-Stop Classified Mobile App!"
 
@@ -46,8 +46,8 @@ By venturing into these industries, TownTrade has the potential to revolutionize
     <a href="https://dhrubokinfotech.github.io/towntrade-flutter-docs" width="49%">
       <img src="https://res.cloudinary.com/drxck87mb/image/upload/v1696238752/Presentation2_zw5sim.png" alt="Download towntrade classified mobile app documentation" />
    </a>
-   <a href="https://drive.google.com/drive/folders/1UHIiSCqEUTHGr3GQpJqDaQ4zmGboFIwF?usp=sharing" width="49%">
-      <img src="https://res.cloudinary.com/drxck87mb/image/upload/v1696238752/Presentation3_bddobv.png" alt="Download towntrade classified mobile app from Drive"/>
+   <a href="https://play.google.com/store/apps/developer?id=Dhrubok+Infotech+Services+Ltd.&hl=en" width="49%">
+      <img src="https://res.cloudinary.com/drxck87mb/image/upload/v1729416932/google_play_twr6kk.png" alt="Download towntrade classified mobile app from Google Play"/>
    </a>
 </div>
 
